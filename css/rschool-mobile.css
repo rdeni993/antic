@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1000px) {
+
+    /** Hide Menu Search Bar **/
+    #searchform{ display: none; }
+
+    body, html{ overflow-x: hidden; }
+
+    /** Intro image **/
+    .school-intro-image > div{
+        position: absolute;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+        font-size: 26px;    
+        text-align: center;
+    }
+    
+    .school-intro-image > div > p:last-child{
+        text-align: center!important;
+    }
+    
+    /** School Intro Image **/
+    .school-intro-image{
+        height: 350px;
+        background: url("../img/antic-black.jpg");
+        background-repeat: no-repeat;
+        background-position: right;
+        color: #fff;
+    }
+
+    .post-content img{
+        max-height: 200px;
+    }
+
+    /** Sidebar **/
+    .sidebars{
+        padding: .3em
+    }
+    .meta-post strong {
+        display: none;
+    }
+    .real-post img{
+        width: 98%;
+        max-height: 200px;
+    }
+    .sidebars #searchform{
+        display: block;
+    }
+    .real-post h3{
+        font-size: 1.3em;
+    }
+    .real-post h1{
+        font-size: 1.8em;
+        padding: 0px;
+        margin: 0px 0px;
+        margin-bottom: 12px;
+    }
+    .personal article{
+        width: 100%;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+
+}

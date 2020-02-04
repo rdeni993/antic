@@ -1,0 +1,319 @@
+/** This is my Primary CSS File **/
+/** Because style.css is used for theme description I will **/
+/** use this... **/
+
+/** Fonts **/
+.pacifico{ font-family: "Pacifico"; }
+
+/** Body **/
+body, html {
+    background: url("../img/dot.png");
+}
+
+/** Color **/
+.cd-dark {
+    color: rgb(58, 56, 56); 
+}
+.cd-dark-light {
+    color: rgb(82, 78, 78); 
+}
+
+/** Container **/
+.container{padding: 0;}
+
+/** Style For Search CSS **/
+#searchform input,
+#searchform button{
+    padding: .33em;
+    border: none;
+    border-radius: 5px;
+}
+#searchform button{
+    padding: .4em 1em;
+    cursor: pointer;
+}
+
+/** School Intro Image **/
+.school-intro-image{
+    height: 350px;
+    background: url("../img/antic.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.school-intro-image > div{
+    position: absolute;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 26px;    
+}
+.school-intro-image > div p {
+    padding: 0;
+    margin: 8px 0;
+}
+
+.ant-cites{
+    display: none;
+}
+
+/** rschool content **/
+.rschool-content{
+    background: #fff;
+}
+
+.nav-tabs{
+    margin-top: 24px;
+}
+
+.post-area{
+    position: relative;
+    min-height: 500px;
+    padding: .5em;
+}
+
+.post-area article{
+    margin-top: 30px;
+}
+
+.post-content{
+    padding: 0.0em;
+    margin: .7em;
+    border-bottom: 3px solid #929292;
+    padding-top: 24px;
+    color: #050505!important;
+}
+.post-content:last-child{
+    border: none;
+    margin-bottom: 50px;
+}
+.post-content img{
+    width: 100%;
+    height: 300px;
+    border: 1px solid #929292;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+.post-content strong,
+.post-content div,
+.post-content h1{
+
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+
+}
+.post-content > p{
+    color: rgb(134, 134, 134);
+    font-size: .85em;
+    padding: 0px;
+    margin: 0px 0px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.post-content p i {
+    margin-right: 8px;
+}
+.post-content a h1{
+    color: rgb(45, 117, 184);
+    padding: 0px 0;
+}
+.post-content a h1{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 0px;
+    margin: 0px 0px;
+    margin-bottom: 12px;
+}
+.post-content em{
+    margin: 0 12px;
+    font-weight: bold;
+}
+.post-content div {
+    color: rgb(22, 21, 21);
+    text-align: justify;
+    padding: 0px;
+    margin: 0px 0px;
+}
+.post-content strong {
+    margin-right: 12px;
+}
+.post-excerpt{
+    color: #050505!important;
+}
+
+/** Disable TAB 2 at startup **/
+#tab-2{ display: none; }
+
+/** Sidebars **/
+.sidebars{
+    padding-top: 70px;
+    padding-left: 65px;
+}
+
+.sidebars article{
+    border-bottom:1px solid #929292;
+    padding: .8em;
+    margin: 0px 12px;
+    margin-bottom: 12px;
+}
+
+.sidebars article:last-child{
+    border: none;
+}
+
+.sidebars article form input {
+    width: 300px;
+    border: 1px solid #504d4d!important;
+}
+
+.sidebars article form button{
+    border: 1px solid #504d4d!important;
+}
+.sidebars article ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebars article table{
+    width: 100%;
+}
+
+.sidebars article h2{
+    margin-bottom: 24px;
+    color: rgb(95, 92, 92);
+}
+
+/** Main Footer **/
+.main-footer{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.footer-cls{
+    background: rgb(24, 21, 31);
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.main-footer article{
+    padding: 12px;
+    color: #fff;
+}
+.main-footer article ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.main-footer article ul li{
+    list-style-type: none;
+    color: #fff;
+}
+.main-footer article ul li a{
+    color: #fff;
+}
+.main-footer article h2{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+#gmap_canvas{
+    width: 100%;
+    height: 250px;
+}
+
+/*** POST **/
+.real-post{
+    padding-top: 60px;
+    padding-left: 36px;
+}
+.real-post img{
+    width: 100%;
+    height: 300px;
+    border: 2px solid #929292;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+.real-post h1{
+    font-size: 2.3em;
+    padding: 0px;
+    margin: 0px 0px;
+    margin-bottom: 12px;
+}
+.meta-post{
+    color: rgb(134, 134, 134);
+    margin-bottom: 50px;
+}
+.meta-post em{
+    margin: 0 12px;
+    font-weight: bold;
+}
+.meta-post strong {
+    margin-right: 12px;
+}
+.meta-post-content{
+    text-align: justify;
+    padding-bottom: 50px;
+}
+.meta-post p i,
+.real-post p i {
+    margin-right: 8px;
+}
+.meta-post-content video{
+    width: 100%!important;
+}
+.real-post h3{
+    margin-bottom: 24px;
+    color: #929292;
+    text-transform: none!important;
+}
+.real-post h3 i{
+    font-size: 0.4em;
+    margin: 12px;
+}
+.real-post h3 i:first-child{
+    margin-left: 24px;
+    color: #444141;
+}
+.real-post h3 em{
+    color: #444141;
+}
+.real-post h3 i:last-child{
+    color: #444141;
+}
+.real-post article{
+    margin: 34px 0;
+}
+.real-post article h1{
+    text-transform: none;
+}
+
+/** Personal **/
+.personal article:first-child{
+    margin-top: 70px;
+}
+.personal article{
+    width: 96%;
+    margin: 2%;
+    border-bottom: 2px solid #b9afaf;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+.personal article:last-child{
+    border: none;
+}
+.personal article div:first-child img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #b9afaf;
+}
+.personal article div:last-child h1{
+    color: royalblue;
+    padding-left: 30px;
+}
+.personal article div:last-child p{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #929292;
+    padding-left: 30px;
+}
